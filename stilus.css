@@ -1,0 +1,54 @@
+body {
+  background-image: linear-gradient(#e68c05, #5e3a05);
+  background-attachment: fixed;
+}
+.tartalom{
+    max-width: 800px;
+    margin: auto;
+}
+.fejlec {
+  background-image: url("images/hero.jpg");
+  height: 100vh;
+  background-size: cover;
+    background-attachment:inherit;
+  color: white
+}
+.menu{
+    margin: 0px;
+    width: 100%;
+    padding: 10px;
+}
+.menu li{
+    list-style-type: none;
+}
+.menupont a{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    float:left;
+    margin: 10px;
+}
+li ul a{
+    padding: 15px;
+    border: solid black 1px;
+    border-style: round;
+    border-radius: 20px;
+    background-color: #f8690a;
+}
+#cicakeres{
+    padding: 15px 55px;
+    border: solid black 1px;
+    border-style: round;
+    border-radius: 20px;
+    background-color: #f8690a;
+    align-content: center;
+    text-decoration: none;
+    margin:auto;
+}
+h1{
+    text-align: center;
+}
+#kozepre{
+    text-align: center;
+    border: 0px;
+    margin: 5px;
+}
