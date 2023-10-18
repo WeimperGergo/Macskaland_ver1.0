@@ -5,50 +5,112 @@ body {
 .tartalom{
     max-width: 800px;
     margin: auto;
+    padding: 0;
 }
 .fejlec {
-  background-image: url("images/hero.jpg");
-  height: 100vh;
-  background-size: cover;
+    background-image: url("images/hero.jpg");
+    height: 100vh;
+    background-size: cover;
     background-attachment:inherit;
-  color: white
+    color: white;
+    padding: 10px;
 }
 .menu{
     margin: 0px;
-    width: 100%;
+    height: 55px;
     padding: 10px;
 }
-.menu li{
+.menu ul{
     list-style-type: none;
-}
-.menupont a{
+    padding: 0;
     display: grid;
-    grid-template-rows: 25% 25% 25% 25%;
-    float:left;
-    margin: 10px;
+    /*grid-template-rows: 25% 25% 25% 25%;*/
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    margin-left: 0;
 }
-li ul a{
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    align-content: center;
+    
+}
+.menu ul li{
     padding: 15px;
+    margin-right: 30px;
     border: solid black 1px;
     border-style: round;
-    border-radius: 20px;
+    border-radius: 100px;
     background-color: #f8690a;
+    text-align: center;
 }
 #cicakeres{
-    padding: 15px 55px;
+    padding: 15px 60px;
     border: solid black 1px;
     border-style: round;
-    border-radius: 20px;
+    border-radius: 100px;
     background-color: #f8690a;
     align-content: center;
     text-decoration: none;
     margin:auto;
+    text-decoration: none;
+    color: white;
 }
-h1{
+#cickeresdiv{
+    margin:auto;
+    padding: 15px 55px;
+    width: 30%;
+    padding-top: 25px;
+}
+h1, h2{
     text-align: center;
+    margin-top: 0;
+    font-weight: lighter;
+    color: white;
 }
 #kozepre{
     text-align: center;
     border: 0px;
     margin: 5px;
 }
+p{
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    
+}
+.cimek{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10%;
+}
+#cicaelet{
+    background-color: #1a1a1a00;
+    background-size: cover;
+    background-attachment:inherit;
+    color: white;
+    padding: 100px;
+    max-width: 800px;
+}
+.helysegcica{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    list-style: none;
+}
+.helysegcicalink{
+    padding: 15px 30px;
+    margin-right: 30px;
+    border: solid black 1px;
+    border-style: round;
+    border-radius: 100px;
+    background-color: #f8690a;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    margin: auto;
+    list-style: none;
+}
+
