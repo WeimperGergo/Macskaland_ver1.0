@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="hu">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Cicákok" />
-    <meta name="keywords" content="Cica, Macska, Macskaland" />
-    <meta name="author" content="Weimper Gergő Zsombor" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="stilus.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Cicákok">
+    <meta name="keywords" content="Cica, Macska, Macskaland">
+    <meta name="author" content="Weimper Gergő Zsombor">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stilus.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Macskaland - Weimper Gergő</title>
   </head>
   <body>
@@ -28,22 +29,30 @@
             </li>
           </ul>
         </div>
-          
+        <div>  
           <h1 class="cimek">Macskaland</h1>
           <p>Keresd meg a hozzád legjobban illő négylábúdat és böngéssz az eseményeink között!</p>
           <div id="cickeresdiv">
-            <a href="#" alt=" " id="cicakeres">Keresem a cicám</a>
-          </div>
-        </div >
+            <a href="#" alt="cica keresés" id="cicakeres">Keresem a cicám</a>
+        </div>
+        </div>
+      </div>
         
-        <div id="cicaelet">
-          <h1>Milyen élete lesz a cicádnak?</h1>
-          <p>Első körben fontos, hogy tudjuk, milyen körülmények között szeretnénk cicát tartani és milyen életet fogunk tudni neki biztosítani így fajta specifikusabban tudunk választani.</p>
-          <ul>
-            <li class="helysegcica"><a href="#" alt="" class="helysegcicalink">Kinti cica</a></li>
-            <li class="helysegcica"><a href="#" alt="" class="helysegcicalink">Benti cica</a></li>
-          </ul>
-        </div>        
+        <div id="cicaelet" style="background-color: rgb(20, 20, 20); border: 1px rgb(0, 0, 0);"> <!--Azért ide írtam, mert az id-n való beállításnál ütközik valamivel valószínűleg-->
+          <div>
+            <h1>Milyen élete lesz a cicádnak?</h1>
+            <p>Első körben fontos, hogy tudjuk, milyen körülmények között szeretnénk cicát tartani és milyen életet fogunk tudni neki biztosítani így fajta specifikusabban tudunk választani.</p>
+          </div>
+          <div>
+            <ul class="helysegcica">
+              <li><a href="#" alt="Kinti cica" class="helysegcicalink"><i class="fa fa-tree"></i> Kinti cica</a></li>
+              <li><a href="#" alt="Benti cica" class="helysegcicalink"><i class="fa fa-home"></i> Benti cica</a></li>
+            </ul>
+          </div>  
+        </div> 
+
+          
+         
     </div>
   </body>
 </html>
